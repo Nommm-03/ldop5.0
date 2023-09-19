@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: none;
+}
+
+.header-top {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: darkcyan;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menubar a {
+    font-size: 18px;
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .2s;
+}
+
+.menubar a:hover{
+    color:#00abf0;
+}
+
+.beranda {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background: url(pxfuel.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.konten-beranda {
+    background: transparent;
+    max-width: 600px;
+}
+
+.konten-beranda h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color:bisque;
+    margin-bottom: 20px;
+}
+
+.konten-beranda h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: darkorange;
+}
+
+.konten-beranda p{
+    font-size: 19px;
+    margin: 20px 0 40px;
+    color: aliceblue;}
+
+.kotak-tombol{
+    width: 300px;
+    height: 50px;
+    background: greenyellow;
+    border-radius: 8px;
+}
+
+.kotak-tombol a {
+   display: inline-flex;
+   width: 300px;
+   height: 100%;
+   border: 2px solid black;
+   border-radius: 8px;
+   font-size: 28px;
+   text-decoration: none;
+   color: black;
+   font-family: Cambria, Cochin, serif;
+   font-weight: 600;
+   justify-content: center;
+   align-items: center;
+}
+
+.kotak-tombol a:hover {
+    color: aliceblue;
+    transition: .3s;
+}
+
+.tentang {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background: url(Ramon.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.konten-tentang {
+    background: transparent;
+    max-width: 600px;
+} 
+
+.konten-tentang h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color:azure;
+    margin-bottom: 40px;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: black;
+} 
+
+.konten-tentang pre {
+    font-size: 19px;
+    margin: 20px 0 40px;
+    color: white;
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: black;
+} 
+
+.portfolio {
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center top;
+    padding: 0 10%;
+    background: yellow;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-konten{
+    background: aliceblue;
+    max-width: 600px;
+    margin-top: 80px;
+}
+
+.portfolio-konten h2{
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 150px;
+    padding-right: 0px;
+    margin-bottom: 50px;
+} 
+
+.portfolio-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+
+.portfolio-foto{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background: aliceblue;
+}
+
+.portfolio-foto img{
+    display: block;
+    width: 70%;
+    border-radius: 10px;
+    padding-left: 190px;
+}
